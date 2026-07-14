@@ -5,7 +5,7 @@ SG_ID="sg-05b7ab0fa6a574779"
 INSTANCES=("mongodb" "catalogue" "redis" "user" "payment" 
 "shipping" "mysql" "rabbitmq" "cart" "Dispatch" "frontend")
 zone_ID="Z01235012H9P8159XBCQ5"
-DOMAIN_NAME=""roboshop.cyou"
+DOMAIN_NAME="roboshop.cyou"
 
 for instance in ${INSTANCES[@]}
 do
