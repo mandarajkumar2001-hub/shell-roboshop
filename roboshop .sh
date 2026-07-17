@@ -3,7 +3,7 @@
 AMI_ID="ami-0220d79f3f480ecf5"
 SG_ID="sg-05b7ab0fa6a574779"
 INSTANCES=("mongodb" "catalogue" "redis" "user" "payment" 
-"shipping" "mysql" "rabbitmq" "cart" "Dispatch" "frontend")
+"shipping" "mysql" "rabbitmq" "cart"  "frontend")
 zone_ID="Z01235012H9P8159XBCQ5"
 DOMAIN_NAME="roboshop.cyou"
 
