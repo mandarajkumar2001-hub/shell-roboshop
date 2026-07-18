@@ -4,8 +4,8 @@ Description=Shipping Service
 [Service]
 User=roboshop
 // highlight-start
-Environment=CART_ENDPOINT=cart.daws84s.site:8080
-Environment=DB_HOST=mysql.daws84s.site
+Environment=CART_ENDPOINT=:cart.roboshop.cyou8080
+Environment=DB_HOST=172.31.20.50
 // highlight-end
 ExecStart=/bin/java -jar /app/shipping.jar
 SyslogIdentifier=shipping
